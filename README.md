@@ -28,7 +28,7 @@ In the same way the robot can be simulate by using an existent file with its joi
 
 The application has two running options to get data as input:
 - *live* : data are collected using external hardware devices. A webcam is used to capture frames of the operator, while an *OptiTrack* tracking system is required to collect position data of the robot;
-- *file* : previously stored data, saved as json files can be used to emulate both the human and the robot while running the application.
+- *file* : previously stored data, saved as json files, can be used to emulate both the human and the robot while running the application.
 
 Inside the root folder different subfolders can be found:
 - *TIM* : contains the TIM framework vanilla source code; 
