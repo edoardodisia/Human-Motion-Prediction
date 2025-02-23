@@ -39,7 +39,13 @@ Inside the root folder different subfolders can be found:
     - *videos* : raw footage recorded by the webcam (if used as input source).
 - *MMPose* : contains the MMPose framework vanilla source code; 
 
-**Note**: this demo is intended to pilot a **UR5e robot** model produced by the *Universal Robots*. If this is not available it is recommended to emulate the robot to avoid missbehaviours.
+While running the demo it is possible to visualize some of the information processed by the application. Here you can find an example of what it will be displayed:
+
+![Image](https://github.com/user-attachments/assets/00a5106d-0896-44ce-b655-4027eb3ba660)
+
+In particalur the orange link represents the last link of the robot arm, which holds the end effector (EE). In yellow it is reported the minimum distance between the EE and the real position of the operator (Ground of Truth, GT), while in light-blue the distance between the predicted position of the operator and the EE. 
+
+**Note**: this demo is intended to pilot a **UR5e robot** model produced by the *Universal Robots*. If this is not available it is recommended to emulate the robot to avoid misbehaviour.
 
 ## Results
 Here it is reported one of the scenarios used to test the demo. In this case the robot is executing a pick and place operation, while the operator plays the role of a dynamic obstacle:
