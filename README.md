@@ -35,7 +35,7 @@ Inside the root folder different subfolders can be found:
 - *ROS* : contains the source file used to establish ethernet communication using *ROS (Robot Operating System)*;
 - *Output_files* : contains data computed by the application. Those files are created only if the *--savetofile* parsing option is active, as json or txt files, and are stored in different folders:
     - *robot_data* : contains files with robot movement data;
-    - *pose_data* : each file contains, frame by frame, the *(x,y,z)* position of each joint related to the human 3D pose and;
+    - *pose_data* : each file contains, frame by frame, the *(x,y,z)* position of each joint related to the human 3D pose;
     - *videos* : raw footage recorded by the webcam (if used as input source).
 - *MMPose* : contains the MMPose framework vanilla source code; 
 
